@@ -28,9 +28,9 @@ twitter_username: jekyllrb
 github_username:  aihes
 
 # Build settings
-#theme: jekyll-theme-hacker
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dark"
+theme: jekyll-theme-hacker
+#theme: minimal-mistakes-jekyll
+#minimal_mistakes_skin: "dark"
 # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 #remote_theme: pages-themes/hacker@v0.2.0
 plugins:
@@ -61,6 +61,8 @@ plugins:
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
 #  - /assets/js/your-custom-head-script.js
+
+footer:
 
 defaults:
   # _posts
