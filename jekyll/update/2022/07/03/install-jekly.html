@@ -1,0 +1,25 @@
+<p>1、升级Homobrew
+2、通过brew安装ruby</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>ruby
+</code></pre></div></div>
+<p>3、安装jekyll相关的包</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>gem <span class="nb">install </span>jekyll bundler
+jekyll new myblog
+<span class="nb">cd </span>myblog
+bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>4、配置jekyll的主题；https://mmistakes.github.io/minimal-mistakes/docs/configuration/</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 添加Gemfile</span>
+gem <span class="s2">"minimal-mistakes-jekyll"</span>
+<span class="c"># 安装主题</span>
+bundle
+<span class="c"># 配置主题，在_config.yml</span>
+theme: minimal-mistakes-jekyll
+</code></pre></div></div>
+
+<p>5、去Github上配置默认的网站</p>
+<ul>
+  <li>新建一个repositoy：仓库的名字一定要和个人的名字相同: https://pages.github.com/</li>
+  <li>配置当前的jekelly内容到github上</li>
+</ul>
