@@ -19,3 +19,4 @@ jobs:
       - uses: helaili/jekyll-action@v2    # Choose any one of the Jekyll Actions
         with:                                # Some relative inputs of your action
           token: ${{ secrets.PERSONAL_PAGES_TOKEN }}
+          jekyll_env: github-pages
