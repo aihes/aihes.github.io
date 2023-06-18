@@ -23,7 +23,8 @@ email: aihehe123@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   基于Github的个人简介.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://aihes.github.io"
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  aihes
 
