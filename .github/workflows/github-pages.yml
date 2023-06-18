@@ -19,5 +19,5 @@ jobs:
       - uses: helaili/jekyll-action@v2    # Choose any one of the Jekyll Actions
         with:                                # Some relative inputs of your action
           token: ${{ secrets.GH_TOKEN }}
-          target_branch: gh-pages-test
+          target_branch: gh-pages
 #          jekyll_env: github-pages
