@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>AI 贺 | </title>
+		<generator>(c) Chulapa Jekyll Theme RSS generator</generator>
+		<link>https://aihes.github.io/</link>
+		<description>基于Github的个人简介.</description>
+		<language>en-US</language>
+		<copyright>(c) 2023, </copyright>	
+		<pubDate>Sun, 18 Jun 2023 07:29:09 +0000</pubDate>
+		<lastBuildDate>Sun, 18 Jun 2023 07:29:09 +0000</lastBuildDate>
+		<category>blog</category>
+		<ttl>60</ttl>
+		<atom:link href="https://aihes.github.io/rss.xml" rel="self" type="application/rss+xml" />
+		<image>
+			<title>AI 贺 | </title>
+			<url></url>
+			<link>https://aihes.github.io/</link>
+			<description>基于Github的个人简介.</description>
+		</image></channel>
+</rss>

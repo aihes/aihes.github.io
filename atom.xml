@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" >
+	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
+	<link href="https://aihes.github.io/atom.xml" rel="self" type="application/atom+xml" />
+	<link href="https://aihes.github.io/" rel="alternate" type="text/html" />
+	<updated>2023-06-18T07:29:09+00:00</updated>
+	<id>https://aihes.github.io/atom.xml</id>
+	<title>AI 贺</title>
+	
+	<author>
+		<name></name>
+					
+	</author>
+	<rights>(c) 2023, </rights>
+	
+	<logo></logo></feed>
