@@ -29,8 +29,8 @@ twitter_username: jekyllrb
 github_username:  aihes
 
 # Build settings
-theme: jekyll-theme-hacker
-#theme: minimal-mistakes-jekyll
+#theme: jekyll-theme-hacker
+theme: minimal-mistakes-jekyll
 #minimal_mistakes_skin: "dark"
 # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 #remote_theme: pages-themes/hacker@v0.2.0

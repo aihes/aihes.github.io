@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Github Pages 使用指南"
+date:   2023-06-18 09:29:09 +0800
+categories: jekyll update
+---
+
 # Github Pages 使用指南
 
 Github Pages 是一个免费的静态网站托管服务，它允许你通过简单的几个步骤就可以把你的项目、博客或者个人网站托管在 Github 上。在这篇文章中，我们将详细介绍如何使用 Github Pages 服务来建立和部署你的第一个静态网站。
