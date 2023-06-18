@@ -31,6 +31,7 @@ jobs:
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.PERSONAL_PAGES_TOKEN }}
+#          personal_token: ${{ secrets.PERSONAL_PAGES_TOKEN }}
+          github_token: ${{ secrets.PERSONAL_PAGES_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
