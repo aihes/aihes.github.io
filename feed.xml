@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-06-18T06:34:18+00:00</updated><id>/feed.xml</id><title type="html">AI 贺</title><subtitle>基于Github的个人简介.</subtitle><entry><title type="html">Jekyll安装过程记录</title><link href="/jekyll/update/2022/07/03/install-jekly.html" rel="alternate" type="text/html" title="Jekyll安装过程记录" /><published>2022-07-03T01:29:09+00:00</published><updated>2022-07-03T01:29:09+00:00</updated><id>/jekyll/update/2022/07/03/install-jekly</id><content type="html" xml:base="/jekyll/update/2022/07/03/install-jekly.html"><![CDATA[<p>1、升级Homobrew
+2、通过brew安装ruby</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>ruby
+</code></pre></div></div>
+<p>3、安装jekyll相关的包</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>gem <span class="nb">install </span>jekyll bundler
+jekyll new myblog
+<span class="nb">cd </span>myblog
+bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>4、配置jekyll的主题；https://mmistakes.github.io/minimal-mistakes/docs/configuration/</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 添加Gemfile</span>
+gem <span class="s2">"minimal-mistakes-jekyll"</span>
+<span class="c"># 安装主题</span>
+bundle
+<span class="c"># 配置主题，在_config.yml</span>
+theme: minimal-mistakes-jekyll
+</code></pre></div></div>
+
+<p>5、去Github上配置默认的网站</p>
+<ul>
+  <li>新建一个repositoy：仓库的名字一定要和个人的名字相同: https://pages.github.com/</li>
+  <li>配置当前的jekelly内容到github上</li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[1、升级Homobrew 2、通过brew安装ruby brew install ruby 3、安装jekyll相关的包 sudo gem install jekyll bundler jekyll new myblog cd myblog bundle exec jekyll serve]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2022/07/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-07-03T01:29:09+00:00</published><updated>2022-07-03T01:29:09+00:00</updated><id>/jekyll/update/2022/07/03/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2022/07/03/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
