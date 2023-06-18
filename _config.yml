@@ -26,14 +26,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aihes.github.io"
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  aihes
+github_username: aihes
 
 # Build settings
 #theme: jekyll-theme-hacker
-theme: minimal-mistakes-jekyll
+theme: chulapa-jekyll
 #minimal_mistakes_skin: "dark"
 # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-#remote_theme: pages-themes/hacker@v0.2.0
+#remote_theme: dieghernan/chulapa
 plugins:
   - jekyll-feed
 #  - jekyll-remote-theme # add this line to the plugins list if you already have one
